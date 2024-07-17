@@ -1,0 +1,3 @@
+[submodule "TravelTales_GrpcProto"]
+	path = TravelTales_GrpcProto
+	url = git@github.com:Rakhimberdiev-Fahriddin/TravelTales_GrpcProto.git

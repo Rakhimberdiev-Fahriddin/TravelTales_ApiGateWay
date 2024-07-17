@@ -1,0 +1,1431 @@
+definitions:
+  auth_service.ActivityResponce:
+    properties:
+      comments_count:
+        type: integer
+      last_active:
+        type: string
+      likes_received:
+        type: integer
+      stories_count:
+        type: integer
+      user_id:
+        type: string
+    type: object
+  auth_service.FollowResponce:
+    properties:
+      followed_at:
+        type: string
+      follower_id:
+        type: string
+      following_id:
+        type: string
+    type: object
+  auth_service.Follower:
+    properties:
+      full_name:
+        type: string
+      id:
+        type: string
+      user_name:
+        type: string
+    type: object
+  auth_service.FollowersResponce:
+    properties:
+      followers:
+        items:
+          $ref: '#/definitions/auth_service.Follower'
+        type: array
+      limit:
+        type: integer
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  auth_service.GetProfileResponce:
+    properties:
+      bio:
+        type: string
+      countries_visited:
+        type: integer
+      created_at:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      id:
+        type: string
+      updated_at:
+        type: string
+      username:
+        type: string
+    type: object
+  auth_service.ListProfileResponce:
+    properties:
+      Users:
+        items:
+          $ref: '#/definitions/auth_service.User'
+        type: array
+      limit:
+        type: integer
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  auth_service.UpdateProfileRequest:
+    properties:
+      bio:
+        type: string
+      countries_visited:
+        type: integer
+      full_name:
+        type: string
+      user_id:
+        type: string
+    type: object
+  auth_service.UpdateProfileResponce:
+    properties:
+      bio:
+        type: string
+      countries_visited:
+        type: integer
+      email:
+        type: string
+      full_name:
+        type: string
+      id:
+        type: string
+      updated_at:
+        type: string
+      username:
+        type: string
+    type: object
+  auth_service.User:
+    properties:
+      countries_visited:
+        type: string
+      full_name:
+        type: string
+      id:
+        type: string
+      username:
+        type: string
+    type: object
+  content_service.AddTravelTipsRequest:
+    properties:
+      author_id:
+        type: string
+      category:
+        type: string
+      content:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.AddTravelTipsResponce:
+    properties:
+      author_id:
+        type: string
+      category:
+        type: string
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.Author:
+    properties:
+      id:
+        type: string
+      user_name:
+        type: string
+    type: object
+  content_service.Comment:
+    properties:
+      author:
+        $ref: '#/definitions/content_service.Author'
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+    type: object
+  content_service.CommentStoriesRequest:
+    properties:
+      author_id:
+        type: string
+      content:
+        type: string
+      story_id:
+        type: string
+    type: object
+  content_service.CommentStoriesResponce:
+    properties:
+      author_id:
+        type: string
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      story_id:
+        type: string
+    type: object
+  content_service.CreateItinerariesRequest:
+    properties:
+      author_id:
+        type: string
+      description:
+        type: string
+      destinations:
+        items:
+          $ref: '#/definitions/content_service.Destination'
+        type: array
+      end_date:
+        type: string
+      start_date:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.CreateItinerariesResponce:
+    properties:
+      author_id:
+        type: string
+      created_at:
+        type: string
+      description:
+        type: string
+      end_date:
+        type: string
+      id:
+        type: string
+      start_date:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.CreateStoriesRequest:
+    properties:
+      content:
+        type: string
+      location:
+        type: string
+      tags:
+        items:
+          type: string
+        type: array
+      title:
+        type: string
+      user_id:
+        type: string
+    type: object
+  content_service.CreateStoriesResponce:
+    properties:
+      author_id:
+        type: string
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      location:
+        type: string
+      tags:
+        items:
+          $ref: '#/definitions/content_service.Tag'
+        type: array
+      title:
+        type: string
+    type: object
+  content_service.Destinat:
+    properties:
+      country:
+        type: string
+      description:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+    type: object
+  content_service.Destination:
+    properties:
+      activities:
+        items:
+          type: string
+        type: array
+      end_date:
+        type: string
+      name:
+        type: string
+      start_date:
+        type: string
+    type: object
+  content_service.Destinations:
+    properties:
+      country:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+      popularity_score:
+        type: integer
+    type: object
+  content_service.GetCommentStoriesResponce:
+    properties:
+      comment:
+        items:
+          $ref: '#/definitions/content_service.Comment'
+        type: array
+      limit:
+        type: integer
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  content_service.GetDestinationsResponce:
+    properties:
+      average_cost_per_day:
+        type: integer
+      best_time_to_visit:
+        type: string
+      country:
+        type: string
+      currency:
+        type: string
+      description:
+        type: string
+      id:
+        type: string
+      language:
+        type: string
+      name:
+        type: string
+    type: object
+  content_service.GetItinerariesResponce:
+    properties:
+      author:
+        $ref: '#/definitions/content_service.ItinerarieAuthor'
+      comments_count:
+        type: integer
+      created_at:
+        type: string
+      description:
+        type: string
+      destinations:
+        items:
+          $ref: '#/definitions/content_service.Destination'
+        type: array
+      end_date:
+        type: string
+      id:
+        type: string
+      likes_count:
+        type: integer
+      start_date:
+        type: string
+      title:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  content_service.GetMessageResponce:
+    properties:
+      limit:
+        type: integer
+      messages:
+        items:
+          $ref: '#/definitions/content_service.Message'
+        type: array
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  content_service.GetStoriesResponce:
+    properties:
+      author:
+        $ref: '#/definitions/content_service.Author'
+      comments_count:
+        type: integer
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      likes_count:
+        type: integer
+      location:
+        type: string
+      tags:
+        items:
+          $ref: '#/definitions/content_service.Tag'
+        type: array
+      title:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  content_service.GetTravelTipsResponce:
+    properties:
+      limit:
+        type: integer
+      page:
+        type: integer
+      tips:
+        items:
+          $ref: '#/definitions/content_service.Tip'
+        type: array
+      total:
+        type: integer
+    type: object
+  content_service.GetTrendingDestinationsResponce:
+    properties:
+      destinations:
+        items:
+          $ref: '#/definitions/content_service.Destinations'
+        type: array
+      total:
+        type: integer
+    type: object
+  content_service.GetsDestinationsResponce:
+    properties:
+      destinations:
+        items:
+          $ref: '#/definitions/content_service.Destinat'
+        type: array
+      limit:
+        type: integer
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  content_service.GetsItinerariesResponce:
+    properties:
+      itineraries:
+        items:
+          $ref: '#/definitions/content_service.Itinerarie'
+        type: array
+      limit:
+        type: integer
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  content_service.GetsStoriesResponce:
+    properties:
+      Limit:
+        type: integer
+      page:
+        type: integer
+      stories:
+        items:
+          $ref: '#/definitions/content_service.GetStoriesResponce'
+        type: array
+      total:
+        type: integer
+    type: object
+  content_service.Itinerarie:
+    properties:
+      author:
+        $ref: '#/definitions/content_service.Author'
+      comments_count:
+        type: integer
+      created_at:
+        type: string
+      end_date:
+        type: string
+      id:
+        type: string
+      likes_count:
+        type: integer
+      start_date:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.ItinerarieAuthor:
+    properties:
+      full_name:
+        type: string
+      id:
+        type: string
+      user_name:
+        type: string
+    type: object
+  content_service.LikeStoriesResponce:
+    properties:
+      liked_at:
+        type: string
+      story_id:
+        type: string
+      user_id:
+        type: string
+    type: object
+  content_service.Message:
+    properties:
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      sender:
+        $ref: '#/definitions/content_service.Sender'
+    type: object
+  content_service.MessageRequest:
+    properties:
+      content:
+        type: string
+      recipient_id:
+        type: string
+      sender_id:
+        type: string
+    type: object
+  content_service.MessageResponce:
+    properties:
+      content:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      recipient_id:
+        type: string
+      sender_id:
+        type: string
+    type: object
+  content_service.MostPopularItinerary:
+    properties:
+      id:
+        type: string
+      likes_count:
+        type: integer
+      title:
+        type: string
+    type: object
+  content_service.MostPopularStory:
+    properties:
+      id:
+        type: string
+      likes_count:
+        type: integer
+      title:
+        type: string
+    type: object
+  content_service.Sender:
+    properties:
+      id:
+        type: string
+      user_name:
+        type: string
+    type: object
+  content_service.StatisticsUserResponce:
+    properties:
+      most_popular_itinerary:
+        $ref: '#/definitions/content_service.MostPopularItinerary'
+      most_popular_story:
+        $ref: '#/definitions/content_service.MostPopularStory'
+      total_comments_received:
+        type: integer
+      total_countries_visited:
+        type: integer
+      total_itineraries:
+        type: integer
+      total_likes_received:
+        type: integer
+      total_stories:
+        type: integer
+      user_id:
+        type: string
+    type: object
+  content_service.Tag:
+    properties:
+      story_id:
+        type: string
+      tag:
+        type: string
+    type: object
+  content_service.Tip:
+    properties:
+      author:
+        $ref: '#/definitions/content_service.Author'
+      category:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.UpdateItinerariesRequest:
+    properties:
+      description:
+        type: string
+      id:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.UpdateItinerariesResponce:
+    properties:
+      author_id:
+        type: string
+      description:
+        type: string
+      end_date:
+        type: string
+      id:
+        type: string
+      start_date:
+        type: string
+      title:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  content_service.UpdateStoriesRequest:
+    properties:
+      content:
+        type: string
+      id:
+        type: string
+      title:
+        type: string
+    type: object
+  content_service.UpdateStoriesResponce:
+    properties:
+      author_id:
+        type: string
+      content:
+        type: string
+      id:
+        type: string
+      location:
+        type: string
+      tags:
+        items:
+          $ref: '#/definitions/content_service.Tag'
+        type: array
+      title:
+        type: string
+      updated_at:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/destinations:
+    get:
+      description: Gets Destinations
+      parameters:
+      - description: limit
+        in: query
+        name: limit
+        type: string
+      - description: page
+        in: query
+        name: page
+        type: string
+      - description: query
+        in: query
+        name: query
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetsDestinationsResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get
+      tags:
+      - destinations
+  /api/v1/destinations/{destination_id}:
+    get:
+      description: Get destination by id
+      parameters:
+      - description: destination_id
+        in: path
+        name: destination_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetDestinationsResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Get
+      tags:
+      - destinations
+  /api/v1/itineraries:
+    get:
+      description: Gets Itineraries
+      parameters:
+      - description: Number of itineraries to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of itineraries to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetsItinerariesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Get
+      tags:
+      - itineraries
+    post:
+      description: create itineraries
+      parameters:
+      - description: info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.CreateItinerariesRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.CreateItinerariesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: create
+      tags:
+      - itineraries
+  /api/v1/itineraries/{itinerary_id}:
+    delete:
+      description: Delete itineraries
+      parameters:
+      - description: itinerary_id
+        in: path
+        name: itinerary_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: successfully deleted
+          schema:
+            type: string
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Delete
+      tags:
+      - itineraries
+    get:
+      description: Get itineraries by id
+      parameters:
+      - description: itinerary_id
+        in: path
+        name: itinerary_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetItinerariesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Get
+      tags:
+      - itineraries
+    put:
+      description: update itineraries
+      parameters:
+      - description: itinerary_id
+        in: path
+        name: itinerary_id
+        required: true
+        type: string
+      - description: info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.UpdateItinerariesRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.UpdateItinerariesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: update
+      tags:
+      - itineraries
+  /api/v1/messages:
+    get:
+      description: get Message
+      parameters:
+      - description: Number of messages to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of messages to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetMessageResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get Message
+      tags:
+      - message
+    post:
+      description: Send Message
+      parameters:
+      - description: info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.MessageRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.MessageResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Message
+      tags:
+      - message
+  /api/v1/stories:
+    get:
+      description: gets stories
+      parameters:
+      - description: Number of stories to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of stories to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetsStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get all story
+      tags:
+      - stories
+    post:
+      description: create new stories
+      parameters:
+      - description: info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.CreateStoriesRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.CreateStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: create stories
+      tags:
+      - stories
+  /api/v1/stories/{story_id}:
+    delete:
+      description: Delete new story
+      parameters:
+      - description: story_id
+        in: path
+        name: story_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: succesfully deleted
+          schema:
+            type: string
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Delete story
+      tags:
+      - stories
+    get:
+      description: Get stories by id
+      parameters:
+      - description: story_id
+        in: path
+        name: story_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Get stories
+      tags:
+      - stories
+    put:
+      description: Update new stories
+      parameters:
+      - description: story_id
+        in: path
+        name: story_id
+        required: true
+        type: string
+      - description: info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.UpdateStoriesRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.UpdateStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Update stories
+      tags:
+      - stories
+  /api/v1/stories/{story_id}/comments:
+    get:
+      description: get comment of story
+      parameters:
+      - description: Number of stories to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of stories to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetCommentStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: comment of story
+      tags:
+      - stories
+    post:
+      description: comment to story
+      parameters:
+      - description: story_id
+        in: path
+        name: story_id
+        required: true
+        type: string
+      - description: story_id
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.CommentStoriesRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.CommentStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: comment story
+      tags:
+      - stories
+  /api/v1/stories/{story_id}/like:
+    post:
+      description: comment to story
+      parameters:
+      - description: story_id
+        in: path
+        name: story_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.LikeStoriesResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: "Likes\t story"
+      tags:
+      - stories
+  /api/v1/travel-tips:
+    get:
+      description: get tips
+      parameters:
+      - description: Number of messages to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of messages to omit
+        in: query
+        name: page
+        type: string
+      - description: category
+        in: query
+        name: category
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetTravelTipsResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get
+      tags:
+      - tips
+    post:
+      description: create tips
+      parameters:
+      - description: destination_id
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/content_service.AddTravelTipsRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.AddTravelTipsResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Add Travel Tips
+      tags:
+      - tips
+  /api/v1/trending-destinations:
+    get:
+      description: get top places
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.GetTrendingDestinationsResponce'
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: top places
+      tags:
+      - top
+  /api/v1/users:
+    get:
+      description: you can see all users
+      parameters:
+      - description: Number of users to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of users to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.ListProfileResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: List users
+      tags:
+      - users
+  /api/v1/users/{user_id}:
+    delete:
+      description: you can delete your profile
+      parameters:
+      - description: user_id
+        in: path
+        name: user_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: delete user
+      tags:
+      - users
+  /api/v1/users/{user_id}/activity:
+    get:
+      description: you can see your profile activity
+      parameters:
+      - description: user_id
+        in: path
+        name: user_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.ActivityResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Activities user
+      tags:
+      - users
+  /api/v1/users/{user_id}/follow:
+    post:
+      description: you can follow another user
+      parameters:
+      - description: user_id
+        in: path
+        name: user_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.FollowResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: follow user
+      tags:
+      - users
+  /api/v1/users/{user_id}/followers:
+    get:
+      description: you can see your followers
+      parameters:
+      - description: user_id
+        in: path
+        name: user_id
+        required: true
+        type: string
+      - description: Number of users to fetch
+        in: query
+        name: limit
+        type: string
+      - description: Number of users to omit
+        in: query
+        name: page
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.FollowersResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get followers
+      tags:
+      - users
+  /api/v1/users/{user_id}/statistics:
+    get:
+      description: get user
+      parameters:
+      - description: user_id
+        in: path
+        name: user_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/content_service.StatisticsUserResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: best
+      tags:
+      - users
+  /api/v1/users/profile:
+    get:
+      description: you can see your profile
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.GetProfileResponce'
+        "401":
+          description: Invalid token
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: get user
+      tags:
+      - users
+    put:
+      description: you can update your profile
+      parameters:
+      - description: info
+        in: body
+        name: userinfo
+        required: true
+        schema:
+          $ref: '#/definitions/auth_service.UpdateProfileRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.UpdateProfileResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: Update user
+      tags:
+      - users
+securityDefinitions:
+  ApiKeyAuth:
+    description: API Gateway
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

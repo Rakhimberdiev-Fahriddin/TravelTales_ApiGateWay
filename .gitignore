@@ -1,0 +1,4 @@
+Makefile
+vendor/
+.env
+.idea/

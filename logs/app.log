@@ -1,0 +1,514 @@
+{"time":"2024-07-17T01:46:19.817378743+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T01:46:19.817703292+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T08:07:58.17362169+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T08:07:58.173954028+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T08:49:45.926805085+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T08:49:45.927336913+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:26:36.322057421+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:26:36.322402762+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:27:34.468545327+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:27:34.46894311+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:35:48.716265649+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:35:48.71665703+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:37:56.305486447+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:37:56.305836288+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:38:46.965825967+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:38:46.966673516+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:38:46.966695868+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = dns: A record lookup error: lookup localhost50051 on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-07-17T09:40:06.036387749+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:40:06.036544596+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:40:06.036559564+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = dns: A record lookup error: lookup localhost50051 on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-07-17T09:41:24.471502396+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:41:24.471897506+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:42:41.2898671+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:42:41.290678649+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:42:41.290696111+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = dns: A record lookup error: lookup localhost50051 on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-07-17T09:43:33.087612459+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:43:33.0877065+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:43:33.087716562+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = dns: A record lookup error: lookup localhost50051 on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-07-17T09:45:08.067856127+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:45:08.068239837+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:49:57.995145223+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:49:58.009407893+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:49:58.009445911+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = error reading from server: EOF"}
+{"time":"2024-07-17T09:50:22.956970636+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:50:22.961335103+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:50:22.961378512+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = error reading from server: EOF"}
+{"time":"2024-07-17T09:53:14.356964733+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:53:14.360101366+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:53:14.360125254+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: null value in column \"id\" of relation \"itineraries\" violates not-null constraint"}
+{"time":"2024-07-17T09:55:25.859101218+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:55:25.872746275+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:55:25.872809278+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:55:41.368605741+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T09:55:41.369031289+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T09:55:44.680807766+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:55:44.693986614+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:55:44.694015545+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:56:35.234628736+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:56:35.245426852+05:00","level":"ERROR","msg":"there"}
+{"time":"2024-07-17T09:56:35.245472586+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T09:58:28.61618871+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:58:28.648534047+05:00","level":"INFO","msg":"Ended"}
+{"time":"2024-07-17T09:58:43.676602283+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:58:43.704187142+05:00","level":"INFO","msg":"Ended"}
+{"time":"2024-07-17T09:58:43.862377295+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T09:58:43.913631439+05:00","level":"INFO","msg":"Ended"}
+{"time":"2024-07-17T09:59:21.09128589+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T09:59:21.092362876+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 2, name \"author_id\": unsupported Scan, storing driver.Value type []uint8 into type *content_service.Author"}
+{"time":"2024-07-17T09:59:21.092524905+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T09:59:50.039700589+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T09:59:50.04502924+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: OFFSET must not be negative"}
+{"time":"2024-07-17T09:59:50.045095934+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:00:50.400718952+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:00:50.401671569+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 2, name \"author_id\": unsupported Scan, storing driver.Value type []uint8 into type *content_service.Author"}
+{"time":"2024-07-17T10:00:50.401733315+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:09:17.320568886+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:09:17.328277772+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:09:41.464632621+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:09:41.465769191+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:09:54.549571629+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:09:54.551043962+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:10:24.910990037+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:10:24.912264442+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:10:24.912387192+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:11:00.462188823+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:11:00.464711885+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T10:11:00.46477188+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:11:07.74869938+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:11:07.749630702+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: Scan error on column index 0, name \"id\": destination not a pointer"}
+{"time":"2024-07-17T10:11:07.749675491+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:13:05.881915882+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:13:05.884807794+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:13:05.88486382+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:14:15.03473321+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:14:15.035824929+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:14:15.035875927+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:15:39.070607405+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:15:39.071568988+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: INSERT has more expressions than target columns"}
+{"time":"2024-07-17T10:15:39.071747342+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:28.674479712+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:28.690284504+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:39.06533372+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:39.088068693+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:39.497149228+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:39.514106796+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:39.732557168+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:39.746823916+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:39.908936581+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:39.936493544+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:40.150500736+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:40.163561813+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:40.407562066+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:40.421614915+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:44.610698482+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:44.624263096+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:47.197701797+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:47.210849346+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:47.378856691+05:00","level":"INFO","msg":"CreateStory started"}
+{"time":"2024-07-17T10:16:47.39211256+05:00","level":"INFO","msg":"CreateStory ended"}
+{"time":"2024-07-17T10:16:55.175511827+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:16:55.176269091+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:16:55.176395838+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:17:01.685813577+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:17:01.686417848+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:17:01.686454363+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:17:36.955033143+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:17:36.955779672+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:17:36.955824635+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:17:56.167187488+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:17:56.167234783+05:00","level":"ERROR","msg":"strconv.Atoi: parsing \"\\\"10\\\"\": invalid syntax"}
+{"time":"2024-07-17T10:18:10.75134946+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:18:10.751960732+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:18:10.752005816+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:19:55.021577924+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:19:55.022565985+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-17T10:19:55.022616661+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:22:31.999446331+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:22:32.001049295+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:22:32.00110562+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:22:36.696772377+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:22:36.704858044+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:22:36.704901545+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:24:00.891082162+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:24:00.892670614+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:24:00.892728332+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:24:04.77932858+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:24:04.779956545+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:24:04.779996292+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:24:59.015329545+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:24:59.022173572+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:24:59.022243896+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:25:29.301233124+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:25:29.31260362+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:25:53.205778386+05:00","level":"INFO","msg":"GetStory started"}
+{"time":"2024-07-17T10:25:53.20657709+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"commens_count\" does not exist"}
+{"time":"2024-07-17T10:25:53.206632532+05:00","level":"INFO","msg":"GetStory ended"}
+{"time":"2024-07-17T10:26:28.050747317+05:00","level":"INFO","msg":"GetStory started"}
+{"time":"2024-07-17T10:26:28.053823204+05:00","level":"INFO","msg":"GetStory ended"}
+{"time":"2024-07-17T10:28:01.66982587+05:00","level":"INFO","msg":"UpdateStory started"}
+{"time":"2024-07-17T10:28:01.681221393+05:00","level":"INFO","msg":"UpdateStory ended"}
+{"time":"2024-07-17T10:28:57.82745289+05:00","level":"INFO","msg":"DeleteStory started"}
+{"time":"2024-07-17T10:28:57.83638841+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:28:57.836448428+05:00","level":"INFO","msg":"DeleteStory ended"}
+{"time":"2024-07-17T10:30:02.388966097+05:00","level":"INFO","msg":"DeleteStory started"}
+{"time":"2024-07-17T10:30:02.389684937+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50053: connect: connection refused\""}
+{"time":"2024-07-17T10:30:02.389742893+05:00","level":"INFO","msg":"DeleteStory ended"}
+{"time":"2024-07-17T10:30:23.916023655+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:30:23.91609043+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50053: connect: connection refused\""}
+{"time":"2024-07-17T10:30:23.91612485+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:30:34.605203025+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:30:34.605267752+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50053: connect: connection refused\""}
+{"time":"2024-07-17T10:30:34.605302596+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:30:52.974389435+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T10:30:52.974735454+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T10:30:56.089249975+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:30:56.090118302+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50053: connect: connection refused\""}
+{"time":"2024-07-17T10:30:56.090272061+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:31:13.842353358+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:31:13.853397534+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:31:37.013022946+05:00","level":"INFO","msg":"DeleteStory started"}
+{"time":"2024-07-17T10:31:37.014741139+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:31:37.014799629+05:00","level":"INFO","msg":"DeleteStory ended"}
+{"time":"2024-07-17T10:32:11.438120212+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:32:11.442283955+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:32:42.245302243+05:00","level":"INFO","msg":"DeleteStory started"}
+{"time":"2024-07-17T10:32:42.246279044+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: update or delete on table \"stories\" violates foreign key constraint \"story_tags_story_id_fkey\" on table \"story_tags\""}
+{"time":"2024-07-17T10:32:42.24633841+05:00","level":"INFO","msg":"DeleteStory ended"}
+{"time":"2024-07-17T10:33:47.894063789+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:33:47.896208362+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:33:54.255892571+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:33:54.258665325+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:34:11.101724845+05:00","level":"INFO","msg":"GetItinerariesById started"}
+{"time":"2024-07-17T10:34:11.102986934+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"destination_id\" does not exist"}
+{"time":"2024-07-17T10:34:11.103202061+05:00","level":"INFO","msg":"GetItinerariesById ended"}
+{"time":"2024-07-17T10:35:20.258139517+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T10:35:20.2666062+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T10:35:56.833644521+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:35:56.838100962+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:36:15.996803151+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T10:36:15.998042555+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:36:15.998139384+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T10:38:50.853796689+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:38:50.857795204+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:39:19.033303974+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T10:39:19.034205225+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:39:19.034250267+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T10:40:02.519828831+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:40:02.523756199+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:41:01.117579772+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T10:41:01.117946791+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T10:41:12.413347784+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T10:41:12.416165843+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"story_id\" does not exist"}
+{"time":"2024-07-17T10:41:12.416287002+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T10:43:27.12449284+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T10:43:27.137734392+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T10:44:18.045492788+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T10:44:18.054611926+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T10:44:45.826701037+05:00","level":"INFO","msg":"CommentStory started"}
+{"time":"2024-07-17T10:44:45.838273477+05:00","level":"INFO","msg":"CommentStory ended"}
+{"time":"2024-07-17T10:47:41.743742483+05:00","level":"INFO","msg":"GetCommentsOfStory started"}
+{"time":"2024-07-17T10:47:41.744958083+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"stories_id\" does not exist"}
+{"time":"2024-07-17T10:47:41.745109373+05:00","level":"INFO","msg":"GetCommentsOfStory ended"}
+{"time":"2024-07-17T10:47:48.655656015+05:00","level":"INFO","msg":"GetCommentsOfStory started"}
+{"time":"2024-07-17T10:47:48.660388748+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"stories_id\" does not exist"}
+{"time":"2024-07-17T10:47:48.660449749+05:00","level":"INFO","msg":"GetCommentsOfStory ended"}
+{"time":"2024-07-17T10:48:57.766305146+05:00","level":"INFO","msg":"GetCommentsOfStory started"}
+{"time":"2024-07-17T10:48:57.773595318+05:00","level":"INFO","msg":"GetCommentsOfStory ended"}
+{"time":"2024-07-17T10:49:07.161472294+05:00","level":"INFO","msg":"GetCommentsOfStory started"}
+{"time":"2024-07-17T10:49:07.16237497+05:00","level":"INFO","msg":"GetCommentsOfStory ended"}
+{"time":"2024-07-17T10:50:36.920455296+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:50:36.932372073+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:02.12142836+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:51:02.13304584+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:02.614875801+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:51:02.625640098+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:03.02612435+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:51:03.03670168+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:03.249665522+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:51:03.261966647+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:03.549184245+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T10:51:03.560976924+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T10:51:06.453956853+05:00","level":"INFO","msg":"GetMessages started"}
+{"time":"2024-07-17T10:51:06.455632438+05:00","level":"INFO","msg":"GetMessages ended"}
+{"time":"2024-07-17T10:51:34.986352539+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T10:51:34.988628558+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T10:51:59.452498079+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"update_at\" does not exist"}
+{"time":"2024-07-17T10:51:59.452578564+05:00","level":"INFO","msg":"UpdateItineraries ended"}
+{"time":"2024-07-17T10:53:49.076531419+05:00","level":"INFO","msg":"UpdateItineraries ended"}
+{"time":"2024-07-17T10:54:09.621397558+05:00","level":"INFO","msg":"Create Destinations srated"}
+{"time":"2024-07-17T10:54:09.623742198+05:00","level":"INFO","msg":"Gets Destinations End"}
+{"time":"2024-07-17T10:55:35.038727409+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T10:55:35.040229146+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T10:56:10.049411457+05:00","level":"INFO","msg":"CreateTips started"}
+{"time":"2024-07-17T10:56:10.060803437+05:00","level":"INFO","msg":"CreateTips ended"}
+{"time":"2024-07-17T10:56:39.571752383+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T10:56:39.576818642+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:56:39.576944272+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T10:56:45.1187539+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T10:56:45.12382991+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"user_name\" does not exist"}
+{"time":"2024-07-17T10:56:45.123890666+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T10:58:07.818618843+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T10:58:07.826490479+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T10:58:27.242169855+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T10:58:27.242766419+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""}
+{"time":"2024-07-17T10:58:27.242896827+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T10:58:33.154502819+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T10:58:33.154568297+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""}
+{"time":"2024-07-17T10:58:33.154602652+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T10:59:35.525930381+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T10:59:35.526291954+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T10:59:37.931932942+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T10:59:37.932812841+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""}
+{"time":"2024-07-17T10:59:37.932953844+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:00:55.119582371+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T11:00:55.119937329+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T11:00:56.970327387+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T11:00:56.977262538+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = error reading from server: EOF"}
+{"time":"2024-07-17T11:00:56.977480755+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:01:27.457235163+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T11:01:27.463382489+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = error reading from server: EOF"}
+{"time":"2024-07-17T11:01:27.463477106+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:05:30.303264068+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T11:05:30.304661192+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \"=\""}
+{"time":"2024-07-17T11:05:30.304716487+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:05:33.50811451+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T11:05:33.508789047+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \"=\""}
+{"time":"2024-07-17T11:05:33.508842962+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:06:45.494818613+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T11:06:45.497579972+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T11:07:05.073896151+05:00","level":"INFO","msg":"Profile is working"}
+{"time":"2024-07-17T11:07:05.074879594+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:07:05.075374547+05:00","level":"INFO","msg":"Profile ended"}
+{"time":"2024-07-17T11:08:32.047214286+05:00","level":"INFO","msg":"Profile is working"}
+{"time":"2024-07-17T11:08:32.04796065+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:08:32.048033682+05:00","level":"INFO","msg":"Profile ended"}
+{"time":"2024-07-17T11:11:13.153684336+05:00","level":"INFO","msg":"Profile is working"}
+{"time":"2024-07-17T11:11:13.154746398+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:11:13.154792976+05:00","level":"INFO","msg":"Profile ended"}
+{"time":"2024-07-17T11:11:49.789240782+05:00","level":"INFO","msg":"Profile is working"}
+{"time":"2024-07-17T11:11:49.790122059+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:11:49.790177947+05:00","level":"INFO","msg":"Profile ended"}
+{"time":"2024-07-17T11:13:08.250529864+05:00","level":"INFO","msg":"Profile is working"}
+{"time":"2024-07-17T11:13:08.253130191+05:00","level":"INFO","msg":"Profile ended"}
+{"time":"2024-07-17T11:14:03.17070269+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:14:03.171940428+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-07-17T11:14:03.172033592+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:18:47.507518479+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:18:47.508407611+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-07-17T11:18:47.508471125+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:19:58.07172404+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:19:58.083864079+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:19:58.083911915+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:20:19.186141295+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:20:19.197696542+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:20:19.19776602+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:21:56.186855164+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:21:56.19757323+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:21:56.197634189+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:23:49.202910189+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:23:49.213814675+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:23:49.213884855+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:25:56.020775672+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:25:56.031471097+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:25:56.031535356+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:34:48.727789684+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:34:48.740212034+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:34:48.740288266+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:42:53.986528632+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:42:53.998134894+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:42:53.998201277+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:45:46.555127675+05:00","level":"INFO","msg":"UserProfileUpdate is working"}
+{"time":"2024-07-17T11:45:46.56669626+05:00","level":"INFO","msg":"UserProfileUpdate ended"}
+{"time":"2024-07-17T11:48:03.284716995+05:00","level":"INFO","msg":"Delete is working"}
+{"time":"2024-07-17T11:48:03.294849782+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: update or delete on table \"users\" violates foreign key constraint \"stories_author_id_fkey\" on table \"stories\""}
+{"time":"2024-07-17T11:48:03.294918528+05:00","level":"INFO","msg":"Delete ended"}
+{"time":"2024-07-17T11:48:17.533735413+05:00","level":"INFO","msg":"Activity is working"}
+{"time":"2024-07-17T11:48:17.535556083+05:00","level":"INFO","msg":"Activity ended"}
+{"time":"2024-07-17T11:48:29.219892797+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T11:48:29.221313303+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T11:48:45.739060178+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T11:48:45.739949899+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T11:48:45.740036757+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T11:48:57.44349515+05:00","level":"INFO","msg":"GetUserStat started"}
+{"time":"2024-07-17T11:48:57.451126769+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"sender_id\" does not exist"}
+{"time":"2024-07-17T11:48:57.45126694+05:00","level":"INFO","msg":"GetUserStat ended"}
+{"time":"2024-07-17T12:05:01.347229766+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:05:01.347883229+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:05:45.470146384+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:05:45.472649857+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:06:04.128992367+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:06:04.129716765+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:07:52.449839807+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:07:52.450827193+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:09:41.649428671+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:09:41.649815708+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:09:43.906180486+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:09:43.907932375+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:10:30.286873008+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:10:30.295109805+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:12:25.185003439+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:12:25.185359153+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:12:28.351535197+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:12:28.353633559+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:14:06.27180158+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:14:06.27217166+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:14:10.224640777+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:14:10.226684157+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:14:47.30207798+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:14:47.302436131+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:14:49.753079411+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:14:49.755153493+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:17:02.657964626+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:17:02.659915532+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:17:02.65998063+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:01.881770358+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:01.894557391+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:12.602746271+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:12.603883469+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:12.603935575+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:12.777677208+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:12.778785697+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:12.778822603+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:12.91983484+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:12.920647635+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:12.920687561+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:13.052085454+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:13.053828795+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:13.053886527+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:18:13.22798632+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T12:18:13.228992792+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:13.229045818+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T12:23:55.049692268+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:23:55.049936705+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-17T12:23:55.050040386+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:24:11.891874481+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:24:11.891945298+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-17T12:24:11.891969922+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:24:53.297905935+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:24:53.297981427+05:00","level":"ERROR","msg":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-17T12:24:53.297995583+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:25:54.781150133+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:25:54.78314373+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:25:54.783180875+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:25:58.559488064+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:25:58.560157107+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:25:58.560175792+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:27:17.971720554+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:27:17.97244481+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:27:17.972471117+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:29:33.756881071+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T12:29:33.757237131+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T12:29:35.731814678+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:29:35.73381888+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:29:35.733907223+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:30:50.707982543+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:30:50.708700138+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:30:50.708730881+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T12:34:02.826667167+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T12:34:02.83684055+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T15:31:55.251051257+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T15:31:55.251663154+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T15:32:33.158764026+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T15:32:33.162213337+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T15:32:47.847697664+05:00","level":"INFO","msg":"CreateTips started"}
+{"time":"2024-07-17T15:32:47.859447373+05:00","level":"INFO","msg":"CreateTips ended"}
+{"time":"2024-07-17T15:32:56.457134096+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T15:32:56.463301956+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T15:37:03.034974495+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T15:37:03.036293645+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T16:00:06.293286117+05:00","level":"INFO","msg":"Starting the application ..."}
+{"time":"2024-07-17T16:00:06.293618411+05:00","level":"INFO","msg":"Server is running","PORT":":8080"}
+{"time":"2024-07-17T16:20:06.5836093+05:00","level":"INFO","msg":"Delete is working"}
+{"time":"2024-07-17T16:20:06.594234057+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: update or delete on table \"users\" violates foreign key constraint \"followers_following_id_fkey\" on table \"followers\""}
+{"time":"2024-07-17T16:20:06.59429157+05:00","level":"INFO","msg":"Delete ended"}
+{"time":"2024-07-17T16:23:16.129095921+05:00","level":"INFO","msg":"Activity is working"}
+{"time":"2024-07-17T16:23:16.130990168+05:00","level":"INFO","msg":"Activity ended"}
+{"time":"2024-07-17T16:24:12.345899856+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:24:12.357284034+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:24:41.747301842+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:24:41.758346395+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:25:06.020418668+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T16:25:06.021564023+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T16:25:34.668045232+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T16:25:34.66808152+05:00","level":"ERROR","msg":"invalid UUID length: 37"}
+{"time":"2024-07-17T16:25:34.668842415+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"2d194fd1-3fc9-4490-bd7a-4ad794acc207\"\""}
+{"time":"2024-07-17T16:25:34.668872367+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T16:25:41.219658981+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T16:25:41.230604005+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T16:26:26.167320271+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T16:26:26.183175282+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T16:27:02.310984557+05:00","level":"INFO","msg":"GetStory started"}
+{"time":"2024-07-17T16:27:02.312639273+05:00","level":"INFO","msg":"GetStory ended"}
+{"time":"2024-07-17T16:27:56.438489016+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T16:27:56.447480493+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"likes_pkey\""}
+{"time":"2024-07-17T16:27:56.447619102+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T16:28:02.777632672+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T16:28:02.786394831+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"likes_pkey\""}
+{"time":"2024-07-17T16:28:02.786455918+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T16:29:18.844053384+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T16:29:18.848467944+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T16:29:35.007148319+05:00","level":"INFO","msg":"Like started"}
+{"time":"2024-07-17T16:29:35.018963086+05:00","level":"INFO","msg":"Like ended"}
+{"time":"2024-07-17T16:30:06.683241829+05:00","level":"INFO","msg":"GetStory started"}
+{"time":"2024-07-17T16:30:06.684806956+05:00","level":"INFO","msg":"GetStory ended"}
+{"time":"2024-07-17T16:32:02.062459923+05:00","level":"INFO","msg":"Create Itineraries started"}
+{"time":"2024-07-17T16:32:02.110023133+05:00","level":"INFO","msg":"Ended"}
+{"time":"2024-07-17T16:33:12.853076764+05:00","level":"INFO","msg":"UpdateItineraries ended"}
+{"time":"2024-07-17T16:34:00.654917239+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T16:34:00.656831353+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T16:34:21.783456949+05:00","level":"INFO","msg":"GetItineraries started"}
+{"time":"2024-07-17T16:34:21.784339727+05:00","level":"INFO","msg":"GetItineraries ended"}
+{"time":"2024-07-17T16:34:55.558942746+05:00","level":"INFO","msg":"Gets Stories started"}
+{"time":"2024-07-17T16:34:55.563432955+05:00","level":"INFO","msg":"Gets Stories ended"}
+{"time":"2024-07-17T16:35:45.01297697+05:00","level":"INFO","msg":"CommentStory started"}
+{"time":"2024-07-17T16:35:45.024845057+05:00","level":"INFO","msg":"CommentStory ended"}
+{"time":"2024-07-17T16:36:04.762641851+05:00","level":"INFO","msg":"CommentStory started"}
+{"time":"2024-07-17T16:36:04.773297944+05:00","level":"INFO","msg":"CommentStory ended"}
+{"time":"2024-07-17T16:38:07.103591314+05:00","level":"INFO","msg":"Create Destinations srated"}
+{"time":"2024-07-17T16:38:07.105157249+05:00","level":"INFO","msg":"Gets Destinations End"}
+{"time":"2024-07-17T16:38:33.899620075+05:00","level":"INFO","msg":"Create Destinations srated"}
+{"time":"2024-07-17T16:38:33.900466825+05:00","level":"INFO","msg":"Gets Destinations End"}
+{"time":"2024-07-17T16:38:49.245812405+05:00","level":"INFO","msg":"Create Destinations srated"}
+{"time":"2024-07-17T16:38:49.246829864+05:00","level":"INFO","msg":"Gets Destinations End"}
+{"time":"2024-07-17T16:39:04.491028023+05:00","level":"INFO","msg":"Create Destinations srated"}
+{"time":"2024-07-17T16:39:04.49192637+05:00","level":"INFO","msg":"Gets Destinations End"}
+{"time":"2024-07-17T16:39:58.110747337+05:00","level":"INFO","msg":"SendMessage started"}
+{"time":"2024-07-17T16:39:58.122156886+05:00","level":"INFO","msg":"SendMessage ended"}
+{"time":"2024-07-17T16:40:11.043215723+05:00","level":"INFO","msg":"GetMessages started"}
+{"time":"2024-07-17T16:40:11.044317997+05:00","level":"INFO","msg":"GetMessages ended"}
+{"time":"2024-07-17T16:40:21.384384723+05:00","level":"INFO","msg":"GetMessages started"}
+{"time":"2024-07-17T16:40:21.385908895+05:00","level":"INFO","msg":"GetMessages ended"}
+{"time":"2024-07-17T16:41:09.000261217+05:00","level":"INFO","msg":"GetTips started"}
+{"time":"2024-07-17T16:41:09.002038207+05:00","level":"INFO","msg":"GetTips ended"}
+{"time":"2024-07-17T16:41:26.159670667+05:00","level":"INFO","msg":"GetUserStat started"}
+{"time":"2024-07-17T16:41:26.162332519+05:00","level":"INFO","msg":"GetUserStat ended"}
+{"time":"2024-07-17T16:43:22.956546804+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T16:43:22.957902361+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T16:47:58.884110019+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T16:47:58.885403262+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: syntax error at or near \"ORDER\""}
+{"time":"2024-07-17T16:47:58.885466261+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T16:48:39.753106294+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T16:48:39.764741437+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T16:48:53.598507285+05:00","level":"INFO","msg":"TopDestinations started"}
+{"time":"2024-07-17T16:48:53.601148346+05:00","level":"INFO","msg":"TopDestinations ended"}
+{"time":"2024-07-17T16:51:00.693866625+05:00","level":"INFO","msg":"List Users is working"}
+{"time":"2024-07-17T16:51:00.696414094+05:00","level":"INFO","msg":"GetAllUsers ended"}
+{"time":"2024-07-17T16:55:39.43315223+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:55:39.436084486+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:55:39.43613689+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:55:56.92704846+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:55:56.927941819+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:55:56.927979208+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:56:55.706133128+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:56:55.707027297+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:56:55.707070623+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:57:16.678265943+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T16:57:16.687275069+05:00","level":"INFO","msg":"Followers ended"}
+{"time":"2024-07-17T16:57:46.638986602+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:57:46.640148335+05:00","level":"ERROR","msg":"rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:57:46.640209894+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:59:20.234187534+05:00","level":"INFO","msg":"Follow is working"}
+{"time":"2024-07-17T16:59:20.246195029+05:00","level":"INFO","msg":"Follow ended"}
+{"time":"2024-07-17T16:59:38.592073447+05:00","level":"INFO","msg":"Followers is working"}
+{"time":"2024-07-17T16:59:38.593558555+05:00","level":"INFO","msg":"Followers ended"}
